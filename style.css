@@ -1,0 +1,67 @@
+body {
+    background: grey url(https://images.pexels.com/photos/4022769/pexels-photo-4022769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat fixed bottom left;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+/* Basic Styling of all Sections */
+section {
+margin: auto;
+width: 50%;
+padding: 10px;
+text-align: center;
+}
+
+label, button, input, span {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Site Description Styling */
+.siteDescription {
+    margin-bottom: 20px;
+}
+
+.siteDescription h1 {
+    font: 600 80px 'Oswald', sans-serif;
+    color: #39000d;
+    text-transform: uppercase;  
+    text-shadow:  2px 2px black;  
+}
+
+.siteDescription h2 {
+    font: italic 400 30px 'Ubuntu', sans-serif;
+    color: #39002e;
+}
+
+
+/* Conversion Fields */
+.box {
+    margin: auto;
+    width: 50%;
+    padding: 10px;  
+    width: 500px;
+    border: 5px solid #39000d;
+    border-radius: 10px;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    background: grey;
+}
+
+button + h2 {
+    font: normal 600 30px 'Oswald', sans-serif;
+    color: #39002e;
+}
